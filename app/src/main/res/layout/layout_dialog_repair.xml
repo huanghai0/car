@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="选择车编号："
+        android:textSize="18sp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/tabs_type_repair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="选择服务："
+        android:textSize="18sp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/tabs_repair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:padding="10dp">
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_repair_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="预约时间" />
+
+    <Button
+        android:id="@+id/btn_submit_repair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+</LinearLayout>

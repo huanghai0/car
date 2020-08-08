@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_mycar"
+            android:icon="@drawable/car"
+            android:title="我的车库" />
+        <item
+            android:id="@+id/menu_item_myorder"
+            android:icon="@drawable/order"
+            android:title="我的账单"
+            />
+        <item android:id="@+id/menu_item_vip"
+            android:icon="@drawable/vip"
+            android:title="会员服务"
+            />
+        <item
+            android:id="@+id/menu_item_quitaccount"
+            android:icon="@drawable/refresh"
+            android:title="切换账号"
+            />
+        <item
+            android:id="@+id/menu_item_aboutme"
+            android:icon="@drawable/user"
+            android:title="关于我们" />
+        <item
+            android:id="@+id/menu_item_quitapp"
+            android:icon="@drawable/quit"
+            android:title="退出程序" />
+    </group>
+</menu>

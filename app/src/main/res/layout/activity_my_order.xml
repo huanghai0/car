@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44BBBB"
+    tools:context=".activity.MyOrderActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4474BB"
+        android:minHeight="?attr/actionBarSize" />
+
+    <Button
+        android:id="@+id/btn_payorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDDD22"
+        android:textColor="#0F0F02"
+        android:layout_marginTop="5dp"
+        android:text="支付账单" />
+
+    <Button
+        android:id="@+id/btn_sale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDDD22"
+        android:textColor="#0F0F02"
+        android:layout_marginTop="5dp"
+        android:text="申请售后" />
+
+    <Button
+        android:id="@+id/btn_find_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#DDDD22"
+        android:textColor="#0F0F02"
+        android:text="查看账单" />
+
+    <ListView
+        android:id="@+id/lv_myorder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_findorder"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#667B99" />-->
+
+</LinearLayout>

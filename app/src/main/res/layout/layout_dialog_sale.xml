@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="选择申请账单："
+        android:textSize="18sp"></TextView>
+
+
+    <RadioGroup
+        android:id="@+id/tabs_salenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_sale_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="申请原因" />
+
+    <Button
+        android:id="@+id/btn_submit_sale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="申请" />
+
+</LinearLayout>
